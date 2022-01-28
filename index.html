@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder Msg </title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="heading" id="headingid">
+        Set Reminder
+    </h1>
+
+<form id="reminder-form">
+    <input id="reminder-input" type="text" placeholder="Enter a Task!!">
+    <select id="reminder-interval">
+        <optgroup label="Time Interval">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+        </optgroup>
+    </select>
+    <button id="reminder-btn">Add Alert</button>
+</form>
+<h3 class="heading">Reminder List</h3>    
+<div id="reminder-list">
+</div>
+<script src="./reminderMsg.js"></script>
+</body>
+</html>
